@@ -1,0 +1,36 @@
+# Ignorar dependencias de Node.js
+node_modules/
+backend/user-services/node_modules
+backend/task-services/node_modules
+frontend-test-domina/node_modules
+
+# Ignorar archivos de entorno
+
+.env.local
+.env.*.local
+
+# Ignorar logs y caché
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignorar archivos de build y dependencias de compilación
+dist/
+build/
+.cache/
+out/
+backend/user-services/dist/
+backend/task-services/dist/
+frontend-test-domina/build/
+
+# Ignorar configuraciones del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
